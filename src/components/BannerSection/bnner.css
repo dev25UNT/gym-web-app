@@ -1,0 +1,10 @@
+.bnnerText {
+  position: absolute;
+  top: 720px;
+  max-width: 638px;
+  right: 295px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+}
