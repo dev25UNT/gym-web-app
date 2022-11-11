@@ -13,31 +13,31 @@ const ExerciseCategory = () => {
       <div className="m-8">
         <div className="relative">
           <img className="rounded-lg m-8" src={img4} />
-          <div class="overlay">BODYBUILDING</div>
+          <div class="overlayMulti">BODYBUILDING</div>
         </div>
         <div className="relative">
           <img className="rounded-lg m-8" src={img3} />
-          <div class="overlay">AEROBICS</div>
+          <div class="overlayMulti">AEROBICS</div>
         </div>
       </div>
       <div className="m-8">
         <div className="relative">
           <img className="rounded-lg m-8" src={img5} />
-          <div class="overlay">YOGA</div>
+          <div class="overlayMulti">YOGA</div>
         </div>
         <div className="relative">
           <img className="rounded-lg m-8" src={img1} />
-          <div class="overlay">CARDIO</div>
+          <div class="overlayMulti">CARDIO</div>
         </div>
       </div>
       <div className="m-8">
         <div className="relative">
           <img className="rounded-lg m-8" src={img2} />
-          <div class="overlay">TRAINING</div>
+          <div class="overlayMulti">TRAINING</div>
         </div>
         <div className="relative">
           <img className="rounded-lg m-8" src={img6} />
-          <div class="overlay">PHYSIOTHERAPY</div>
+          <div class="overlayMulti">PHYSIOTHERAPY</div>
         </div>
       </div>
     </div>

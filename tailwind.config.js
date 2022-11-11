@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         testimonial: "#0A0F15",
         btnBg: "#EE5925",
+        blueLight: "#54636D",
       },
       width: {
         cardW: "332.08px",

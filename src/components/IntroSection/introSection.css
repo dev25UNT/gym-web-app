@@ -4,6 +4,21 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
+  width: 100%;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  padding: 28% 0;
+}
+
+.overlayMulti {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
   width: 112%;
   opacity: 1;
   color: white;

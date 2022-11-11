@@ -16,7 +16,7 @@ const ClientReview = () => {
         <h1 className="text-5xl mt-16">
           What our <span className="font-extrabold">Client Say</span>
         </h1>
-        <p className="text-xl">
+        <p className="text-xl text-blueLight">
           Read what our customers have to say about their experience
         </p>
         <div>
@@ -26,7 +26,7 @@ const ClientReview = () => {
             })}
           </div>
           <div className="flex justify-between items-center">
-            <h1>1120 Reviews </h1>
+            <h1 className="text-blueLight">1120 Reviews </h1>
             <div className="flex justify-evenly max-w-xs">
               <img src={leftArr} />
               <img className=" mr-3 ml-3" src={rightArr} />

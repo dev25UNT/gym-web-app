@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "MartelSans";
-  src: url("./assets/fonts/MartelSans-Regular.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+  font-family: "SplineSans"; /*Can be any text*/
+  src: local("SplineSans"),
+    url("./assets/fonts/SplineSans-Bold.ttf") format("truetype");
+  src: local("SplineSans"),
+    url("./assets/fonts/SplineSans-Light.ttf") format("truetype");
+  src: local("SplineSans"),
+    url("./assets/fonts/SplineSans-Medium.ttf") format("truetype");
+  src: local("SplineSans"),
+    url("./assets/fonts/SplineSans-Regular.ttf") format("ttf");
+  src: local("SplineSans"),
+    url("./assets/fonts/SplineSans-SemiBold.ttf") format("truetype");
 }
 
 .bg-gradient {
